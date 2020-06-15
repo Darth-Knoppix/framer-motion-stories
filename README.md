@@ -4,7 +4,7 @@ A storybook containing examples of animations created with Framer Motion and Rea
 
 ## Articles
 
-- []()
+- [How to animate scroll position in React](https://blog.sethcorker.com/scroll-animation-with-framer-motion)
 
 ## How to get up and running locally
 
