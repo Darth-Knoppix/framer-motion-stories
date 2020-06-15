@@ -3,14 +3,15 @@ import React, { useState } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 const letterStyle = {
-  width: "100%",
-  height: "100%",
-  top: "5rem",
-  left: "calc(50% - 14rem)",
+  width: "calc(100% - 1rem)",
+  height: "calc(100% - 1rem)",
+  top: "0.5rem",
+  left: "0.5rem",
   backgroundColor: "#f8efd5",
   overflow: "hidden",
   padding: "1rem",
   boxSizing: "border-box",
+  position: "absolute",
 };
 
 function Letter() {
